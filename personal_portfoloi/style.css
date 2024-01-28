@@ -1,0 +1,406 @@
+body{
+   
+    background-color: black !important;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text_color{
+    color: #55E6A5 !important;
+}
+.star{
+    color: yellow !important;
+}
+a{
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.fs_10{
+    font-size: 10px;
+}
+.fs_11{
+    font-size: 11px;
+}
+.fs_12{
+    font-size: 12px;
+}
+.fs_13{
+    font-size: 13px;
+}
+.fs_14{
+    font-size: 14px;
+}
+.fs_15{
+    font-size: 15px;
+}
+.fs_16{
+    font-size: 16px;
+}
+.fs_17{
+    font-size: 17px;
+}
+.fs_18{
+    font-size: 18px;
+}
+.fs_19{
+    font-size: 18px;
+}
+.fs_19{
+    font-size: 19px;
+}
+.fs_20{
+    font-size: 20px;
+}
+
+.fs_21{
+    font-size: 21px;
+}
+
+.fs_22{
+    font-size: 22px;
+}
+
+.fs_23{
+    font-size: 23px;
+}
+
+.fs_24{
+    font-size: 24px;
+}
+.fs_25{
+    font-size: 25px;
+}
+.fs_26{
+    font-size: 2px;
+}
+.fs_27{
+    font-size: 27px;
+}
+.fs_28{
+    font-size: 28px;
+}
+.fs_29{
+    font-size: 29px;
+}
+.fs_30{
+    font-size: 30px;
+}
+
+.fs_33{
+    font-size: 33px !important;
+}
+.border_box{
+    border: 1.5px solid white;
+}
+.border_input{
+    border: 1px solid #55E6A5;
+}
+.back{
+    background-color: rgb(40, 39, 39) !important;
+}
+input{
+    border: none;
+    background-color: black;
+    width: 90%;
+   
+outline: none;
+color: white !important;
+    
+}
+
+textarea{
+    border: none;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+outline: none;
+color: white !important;
+    
+}
+/* headder */
+.header{
+    
+    height: 90px;
+    /* max-height: 400px; */
+    background-color: rgb(41, 38, 38);
+}
+.nav-item a:hover{
+    color: red !important;
+}
+.header_logo{
+    
+    height: 90px;
+    width: 100px;
+    background-image: url(./images/logo2.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    mix-blend-mode: lighten;
+}
+
+.main{
+    height: 90vh;
+     width: 100%;
+    /* background-color: rgb(101, 197, 165); */
+/* background-image: url(./images/main1.jpg); */
+/* background: rgb(9, 5, 5) url('./images/img1.jpg'); */
+background-size: cover;
+background-position: center;
+/* background-size: contain; */
+background-repeat: no-repeat;
+ 
+}
+.main button{
+    background-color: rgb(85,230,165);
+    height: 50px ;
+}
+.pp{
+    /* right: 0px ; */
+    position: relative;
+
+}
+.photo-main{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    /* width: 85%; */
+    width: 100%;
+    height: 90vh;
+    /* background-color: rgb(85,230,165); */
+    border-top: 15px   solid #55E6A5;
+    border-right: 15px   solid #55E6A5;
+}
+.photo{
+    top: 20px;
+   
+    height: 80vh;
+    width: 88%;
+    margin-left: 40px;
+    position: relative;
+    border: 2px solid white;
+    /* background-color: red; */
+    /* border-radius: 50%; */
+    background-image: url(./images/photo.jpeg);
+    background-position: center;
+    background-size: cover;
+  
+    /* border-radius: 35% 35%; */
+    /* border-top: 10px   solid #55E6A5; */
+    /* border-right: 10px   solid #55E6A5; */
+    
+}
+/* service  */
+.service{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    
+    border-radius: 10px;
+    height: 60vh;
+ color: white;
+ position: relative;
+
+   
+}
+.service-box{
+    margin-left: 35%;
+    position: relative;
+  
+    top: -45px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white !important;
+    border-radius: 50%;
+    background-color: black;
+}
+.service .fa-solid ,.service .fa-brands {
+   font-size: 40px;
+}
+.service p {
+    line-height: 2;
+}
+/* .service:hover{
+    color: white;
+    background-color: red;
+    border-color: white;
+} */
+/* about */
+.ab-photo{
+    border :10px solid #55E6A5;
+    border-radius: 1%;
+    height: 70vh;
+    width: 100%;
+}
+.about-photo{
+    background-image: url(./images/IMG_1602.JPG);
+    background-position: center;
+    background-size: cover;
+    top: 20px;
+  
+    height: 100%;
+    width:100%;
+   
+   
+    border: 2px solid white;
+    /* border-radius: 50%; */
+    
+}
+
+/* .about{
+    height: 400px;
+    background-image: url(./images/img3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about2{
+    height: 500px;
+    width: 100%;
+    background-color:#0c0a4d;
+} */
+.box_project{
+    height: 50vh;
+}
+ .background{
+  background-color: rgb(40, 39, 39);
+}
+.background .fa-solid,.background .fa-brands{
+   color: #55E6A5;
+   font-size: 50px;
+   text-align: center;
+}
+.button{
+    background-color: #55E6A5;
+    height: 50px;
+    border-radius: 0;
+}
+.button:hover{
+    background-color: gray;
+}
+/* about end */
+/* education start */
+
+.ed{
+    height: 55px;
+    /* border: 1px solid white; */
+    
+}
+
+  .bbb1 {
+    width: 0%;
+    height: 5px;
+    background-color: #55E6A5;
+    font-weight: bold;
+    animation: mymove1 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes mymove1 {
+    0%   {width: 0%;}
+    100% {width: 100%;} 
+  }
+/* education end */
+/* client start */
+.clinet{
+    height: 200px;
+}
+.clinet_photo{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    left: 8%;
+    margin-top: .7%;
+    border-radius: 50%;
+
+}
+.tes{
+    background-color: #55E6A5;
+    background-image: url(./images/IMG_1602.JPG);
+    background-position: center;
+    background-size: cover;
+
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   margin-top: 20%;
+   margin-left: 5%;
+}
+
+
+/* client end */
+/* newslatter */
+.news{
+    height: 60px;
+}
+/* address strat */
+.log{
+    
+    height: 60px;
+    width:60px;
+   background-color: #55E6A5;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* address end */
+.logo{
+    border: 0.5px solid gray ;
+    border-radius: 100%;
+    text-align: center;
+    padding: 2.5%;
+
+}
+.logo:hover{
+    
+    background-color: red;
+    /* background-color: rgb(71, 67, 146); */
+}
+/* footer start */
+.end_service a:hover{
+color: red !important;
+}
+/* footer end */
+
+/* whatsapp button  */
+.whatsapp{
+    height: 50px;
+    width: 140px;
+    background-color: green;
+    position: fixed;
+    right: 10px;
+    bottom: 5vh;
+    z-index: 2;
+    border-radius: 50px;
+}
+.wp{
+    position: relative;
+}
+.btn1{
+    outline: none;
+    border: none;
+}
+
+/* ################################## */
+.main p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.main .cv_button{
+    padding-top: 40px !important;
+}
+
+/* card */
+.card{
+    margin: 15px 0;
+    box-shadow: 8px 5px 10px 0px rgb(124, 122, 122);
+    box-shadow: 0px 0px 10px 0px rgb(162, 161, 161);
+    
+ }
+
+ .card:hover{
+    border:20px green;
+    }
+ 
+ .card-text {
+     color: gray;
+ }
